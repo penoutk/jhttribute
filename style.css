@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*article,
+aside,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}*/
+
+body {
+  background-color: #f4f4f4;
+}
+
+#page-header {
+  /*display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;*/
+  display: flex;
+  /*-moz-align-items: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-align-items: flex-start;*/
+  align-items: flex-start;
+  /*-moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;*/
+  justify-content: center;
+  /*-moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;*/
+  flex-direction: column;
+
+  background-image: url("young-jht-portrait.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* text-align: center; */
+  /* position: relative; */
+  cursor: default;
+  padding: 0 0 10px 10px;
+  height: 682px;
+}
+
+h1 {
+  color: white;
+}
+
+em {
+  width: 300px;
+  /* display: block; */
+  color: white;
+  /* align-self: flex-start; */
+}
+
+main {
+  margin-top: 15px;
+  background-color: dodgerblue;
+  /* display: flex; */
+}
+
+/*.skewedBox {
+  background-color: #f4f4f4;
+  padding: 125px 0;
+  transform: skew(0deg, -10deg) translateY(-145px);
+  z-index: -5;
+}*/
+
+aside {
+  z-index: 1;
+}
+
+footer {
+  color: white;
+  background: #000000;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/*.copyright {
+  float: right;
+}*/
